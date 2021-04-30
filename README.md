@@ -6,11 +6,25 @@ A simple, Typescript ready, jest matcher extension to validate [files](https://d
 
 ###### jest.config.ts / jest.config.js
 
+Enable usage of the matcher in jest:
+
 ```ts
 export default {
     /** Just add this project on your jest setup */
     setupFilesAfterEnv: ['jest-file-matcher'],
 };
+```
+
+###### tsconfig.json
+
+Import the matcher to typescript with:
+
+```json
+{
+    "compilerOptions": {
+        "typeRoots": ["./node_modules/jest-file-matcher"]
+    }
+}
 ```
 
 ### Usage:

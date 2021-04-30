@@ -23,8 +23,11 @@
         "matcher",
         "file"
     ],
-    "author": "Filipe Pomar",
-    "license": "ISC",
+    "author": {
+        "name": "Filipe Pomar",
+        "email": "filipomar@hotmail.com"
+    },
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/filipomar/jest-file-matcher/issues"
     },
