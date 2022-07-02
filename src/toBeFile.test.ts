@@ -88,7 +88,7 @@ describe(toBeFile, () => {
 
         const readAsDataURLSpy = jest.spyOn(FileReader.prototype, 'readAsDataURL');
         const getLastFileReaderInstance = (): FileReader => {
-            const instances = (readAsDataURLSpy.mock.instances as unknown[]) as FileReader[];
+            const instances = readAsDataURLSpy.mock.instances as unknown[] as FileReader[];
             return instances[instances.length - 1];
         };
 

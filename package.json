@@ -1,6 +1,6 @@
 {
     "name": "jest-file-matcher",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A simple jest matcher extension to validate files",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -21,7 +21,11 @@
     "keywords": [
         "jest",
         "matcher",
-        "file"
+        "file",
+        "test",
+        "unit",
+        "web",
+        "dom"
     ],
     "author": {
         "name": "Filipe Pomar",
@@ -33,17 +37,16 @@
     },
     "homepage": "https://github.com/filipomar/jest-file-matcher#readme",
     "devDependencies": {
-        "@types/jest": "^26.0.23",
-        "@typescript-eslint/eslint-plugin": "^4.22.0",
-        "@typescript-eslint/parser": "^4.22.0",
-        "eslint": "^7.25.0",
-        "eslint-config-prettier": "^8.3.0",
-        "prettier": "^2.2.1",
-        "ts-jest": "^26.5.5",
-        "ts-node": "^9.1.1",
-        "typescript": "^4.2.4"
-    },
-    "dependencies": {
-        "jest": "^26.6.3"
+        "@types/jest": "^28.1.4",
+        "@typescript-eslint/eslint-plugin": "^5.30.3",
+        "@typescript-eslint/parser": "^5.30.3",
+        "eslint": "^8.19.0",
+        "eslint-config-prettier": "^8.5.0",
+        "jest": "^28.1.2",
+        "jest-environment-jsdom": "^28.1.2",
+        "prettier": "^2.7.1",
+        "ts-jest": "^28.0.5",
+        "ts-node": "^10.8.1",
+        "typescript": "^4.7.4"
     }
 }
