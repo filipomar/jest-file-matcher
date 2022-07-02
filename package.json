@@ -1,6 +1,6 @@
 {
     "name": "jest-file-matcher",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A simple jest matcher extension to validate files",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
